@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642614a7-eed4-49eb-98f2-50ece7f459ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Z18.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Z19.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -75,11 +75,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Z18.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Z18.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Z18.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Z19.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Z19.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -112,6 +122,7 @@
         <option value="$PROJECT_DIR$/src/Z16.java" />
         <option value="$PROJECT_DIR$/src/Z17.java" />
         <option value="$PROJECT_DIR$/src/Z18.java" />
+        <option value="$PROJECT_DIR$/src/Z19.java" />
       </list>
     </option>
   </component>
@@ -181,10 +192,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Z18">
-    <configuration name="Z18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Z19">
+    <configuration name="Z19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Z18" />
+      <option name="MAIN_CLASS_NAME" value="Z19" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -278,7 +289,7 @@
     </configuration>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Z18" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Z19" />
       </list>
     </recent_temporary>
   </component>
@@ -295,12 +306,12 @@
       <workItem from="1507507020946" duration="1041000" />
       <workItem from="1508175274330" duration="610000" />
       <workItem from="1508533183172" duration="626000" />
-      <workItem from="1508676469835" duration="3420000" />
+      <workItem from="1508676469835" duration="4036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5697000" />
+    <option name="totallyTimeSpent" value="6313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -398,6 +409,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Z19.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
           <folding />
         </state>
       </provider>
