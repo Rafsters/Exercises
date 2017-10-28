@@ -13,6 +13,5 @@ public class Z30 {
         } else{
             System.out.println("Płeć: Mężczyzna");
         }
-
     }
 }
