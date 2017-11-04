@@ -5,16 +5,17 @@ public class Z46 {
     public static void main(String[] args) {
         ArrayList<Double> values = new ArrayList<>();
         Scanner in = new Scanner(System.in);
-        System.out.println("Podaj liczbe");
-        while(Double.parseDouble(in.next()) != 0){
-            System.out.println("Podaj liczbe");
-            values.add(Double.parseDouble(in.next()));
-        }
+        double val;
+        do {
+            System.out.println("Enter some value: ");
+            val = Double.parseDouble(in.next());
+            values.add(val);
+        } while (val != 0);
         double sum = 0;
         for (int i = 0; i < values.size(); i++) {
             sum += values.get(i);
         }
-        System.out.println("Suma: " + sum);
+        System.out.println("Sum: " + sum);
 
     }
 }
