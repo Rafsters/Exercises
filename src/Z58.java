@@ -13,7 +13,7 @@ public class Z58 {
             iloscZakladow = in.nextInt();
         } while (iloscZakladow < 1 || iloscZakladow > 8);
 
-        int iloscLiczb = 25;
+        int iloscLiczb = 26;
         int[][] zaklady = new int[iloscZakladow][iloscLiczb];
 
         for (int i = 0; i < iloscZakladow; i++) {
@@ -25,14 +25,14 @@ public class Z58 {
             }
 
             for (int j = 0; j < iloscLiczb; j++) {
-                int randomIndex = ((int) (Math.random() * 49));
+                int randomIndex = ((int) (Math.random() * k));
                 System.out.print("random index: " + randomIndex);
                 zaklady[i][j] = liczbyDoWylosowania[randomIndex];
                 System.out.print(", liczba: " + zaklady[i][j]);
                 liczbyDoWylosowania[randomIndex] = liczbyDoWylosowania[k-1];
                 System.out.print(", Liczby do wylosowanie: " + liczbyDoWylosowania[k - 1]);
                 k--;
-                System.out.print(", k: " + k);
+                System.out.print(", k-- jest równe: " + k);
                 System.out.println();
             }
             Arrays.sort(zaklady[i]);
