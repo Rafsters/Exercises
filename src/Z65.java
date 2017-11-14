@@ -9,9 +9,7 @@ public class Z65 {
     }
     public static void main(String[] args) {
         int liczbaPierwsza, liczbaDruga, wynik;
-
         liczbaPierwsza = odczytajLiczbe("Podaj pierwszą liczbę: "); // wywołanie metody statycznej
-
         liczbaDruga = odczytajLiczbe("Podaj pierwszą liczbę: "); // wywołanie metody statycznej
         wynik = liczbaPierwsza + liczbaDruga;
         System.out.println("Suma wynosi: " + wynik + "\n"); // wywołanie metody statycznej
