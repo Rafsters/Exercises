@@ -1,11 +1,12 @@
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Z69 {
     public static void main(String[] args) {
         double[] exchangeRateArray = new double[5];
-        Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in).useLocale(Locale.US);
         for (int i = 0; i < exchangeRateArray.length; i++) {
             System.out.println("Insert first exchange rate: ");
             exchangeRateArray[i] = in.nextDouble();
