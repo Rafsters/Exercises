@@ -49,7 +49,7 @@ public class Z78 {
         System.out.println("Hours: " + TimeUnit.MILLISECONDS.toHours(timeInMillisFromBeforeTillLater));
         System.out.println("Days: " + TimeUnit.MILLISECONDS.toDays(timeInMillisFromBeforeTillLater));
         System.out.println("Weeks: " + TimeUnit.MILLISECONDS.toDays(timeInMillisFromBeforeTillLater)/7);
-        System.out.println("Years: " + (dateLater.getWeekYear() - dateBefore.getWeekYear()));
+        System.out.println("Years: " + (dateLater.get(Calendar.YEAR) - dateBefore.get(Calendar.YEAR)));
         System.out.println();
 
     }
