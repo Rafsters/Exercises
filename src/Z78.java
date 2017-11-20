@@ -1,18 +1,28 @@
 import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
-    /*
-    Napisz program, który wyświetli: aktualną datę i godzinę, liczbę dni oraz tygodni,
-     jakie upłynęły od początku roku, liczbę dni oraz tygodni, jaka pozostała do końca roku, liczbę lat,
-      miesięcy, dni, godzin, minut i sekund, jaką przeżyłeś dotychczas.
 
-     */
+/*
+Napisz program, który wyświetli: aktualną datę i godzinę, liczbę dni oraz tygodni,
+ jakie upłynęły od początku roku, liczbę dni oraz tygodni, jaka pozostała do końca roku, liczbę lat,
+  miesięcy, dni, godzin, minut i sekund, jaką przeżyłeś dotychczas.
+
+ */
 public class Z78 {
     public static void main(String[] args) {
-        showActualDate();
-        showDaysFromBeginningOfTheyearTillNow();
+        //showActualDate();
+        Calendar now = Calendar.getInstance();
+        Calendar firstOfJanuary = Calendar.getInstance();
+        firstOfJanuary.set(2017, Calendar.JANUARY, 1,0,0,0);
+        Calendar endOfTheYear = Calendar.getInstance();
+        endOfTheYear.set(2017,Calendar.DECEMBER,31,23,59,59);
+        Calendar birthday = Calendar.getInstance();
+        birthday.set(1994,Calendar.MARCH,28,15,34,12);
+        showDaysAndWeeksFromOneDateTillAnother(firstOfJanuary.getTimeInMillis(), now.getTimeInMillis());
+        showDaysAndWeeksFromOneDateTillAnother(now.getTimeInMillis(), endOfTheYear.getTimeInMillis());
+        showDaysAndWeeksFromOneDateTillAnother(birthday.getTimeInMillis(), now.getTimeInMillis());
     }
 
-    public static void showActualDate(){
+    public static void showActualDate() {
         Calendar now = Calendar.getInstance();
 
         System.out.println(now.getTime());
@@ -21,14 +31,23 @@ public class Z78 {
         System.out.println(" " + now.get(Calendar.HOUR) + ":" + now.get(Calendar.MINUTE) + ":" + now.get(Calendar.SECOND));
 
     }
-    public static void showDaysFromBeginningOfTheyearTillNow(){
-        Calendar now = Calendar.getInstance();
-        Calendar beginningOfTheYear = Calendar.getInstance();
-        beginningOfTheYear.set(2017,0, 1, 0, 0,0);
-        long timeInMillisFromBeginningOfTheYearTillNow = now.getTimeInMillis() - beginningOfTheYear.getTimeInMillis();
-        System.out.println("Days from: " + beginningOfTheYear.getTime() + ", till " + now.getTime() + " : ");
-        System.out.println(TimeUnit.MILLISECONDS.toDays(timeInMillisFromBeginningOfTheYearTillNow));
 
+    public static void showDaysAndWeeksFromOneDateTillAnother(long before, long later) {
+        Calendar dateLater = Calendar.getInstance();
+        Calendar dateBefore = Calendar.getInstance();
+
+        dateLater.setTimeInMillis(later);
+        dateBefore.setTimeInMillis(before);
+
+        long timeInMillisFromBeforeTillLater = dateLater.getTimeInMillis() - dateBefore.getTimeInMillis();
+        System.out.println("From: " + dateBefore.getTime() + "\nTill: " + dateLater.getTime());
+        System.out.println("Seconds: " + TimeUnit.MILLISECONDS.toSeconds(timeInMillisFromBeforeTillLater));
+        System.out.println("Minutes: " + TimeUnit.MILLISECONDS.toMinutes(timeInMillisFromBeforeTillLater));
+        System.out.println("Hours: " + TimeUnit.MILLISECONDS.toHours(timeInMillisFromBeforeTillLater));
+        System.out.println("Days: " + TimeUnit.MILLISECONDS.toDays(timeInMillisFromBeforeTillLater));
+        System.out.println("Weeks: " + TimeUnit.MILLISECONDS.toDays(timeInMillisFromBeforeTillLater)/7);
+        System.out.println("Years: " + (dateLater.getWeekYear() - dateBefore.getWeekYear()));
 
     }
+
 }
