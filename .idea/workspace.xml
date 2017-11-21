@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642614a7-eed4-49eb-98f2-50ece7f459ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Z83.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Z84.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Z85.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Z86.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Z87.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,42 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Z74.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Z74.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding>
-                <element signature="e#62#63#0" expanded="true" />
-                <element signature="e#96#97#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Z75.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Z75.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Z76.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Z76.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding>
-                <element signature="e#88#89#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Z77.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Z77.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,11 +84,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Z84.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Z84.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Z84.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="64" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Z85.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Z85.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Z86.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Z86.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Z87.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Z87.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -149,9 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Z34.java" />
-        <option value="$PROJECT_DIR$/src/Z35.java" />
-        <option value="$PROJECT_DIR$/src/Z36.java" />
         <option value="$PROJECT_DIR$/src/Z37.java" />
         <option value="$PROJECT_DIR$/src/Z38.java" />
         <option value="$PROJECT_DIR$/src/Z39.java" />
@@ -200,6 +192,9 @@
         <option value="$PROJECT_DIR$/src/Z82.java" />
         <option value="$PROJECT_DIR$/src/Z83.java" />
         <option value="$PROJECT_DIR$/src/Z84.java" />
+        <option value="$PROJECT_DIR$/src/Z85.java" />
+        <option value="$PROJECT_DIR$/src/Z86.java" />
+        <option value="$PROJECT_DIR$/src/Z87.java" />
       </list>
     </option>
   </component>
@@ -270,12 +265,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Z84">
-    <configuration name="Z84" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.Z87">
+    <configuration name="Z87" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Z84" />
+      <option name="MAIN_CLASS_NAME" value="Z87" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="3 6" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -367,7 +362,7 @@
     </configuration>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Z84" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Z87" />
       </list>
     </recent_temporary>
   </component>
@@ -403,15 +398,16 @@
       <workItem from="1510929349370" duration="624000" />
       <workItem from="1511124935388" duration="7490000" />
       <workItem from="1511183159879" duration="473000" />
-      <workItem from="1511210045891" duration="4346000" />
+      <workItem from="1511210045891" duration="6403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104730000" />
+    <option name="totallyTimeSpent" value="106787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -454,33 +450,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/ComparableTimSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Z58_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Z58.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Z59.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -878,6 +847,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="64" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Z85.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Z86.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Z87.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding />
         </state>
       </provider>
